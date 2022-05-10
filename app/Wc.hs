@@ -2,7 +2,7 @@
 
 module Wc where
 
-import Control.Parallel.Strategies
+import Control.Parallel.Strategies ( rseq )
 import qualified Data.ByteString.Lazy.Char8 as B
 import Data.Char (isAlpha, toLower)
 import Data.Function (on)

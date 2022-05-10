@@ -1,7 +1,7 @@
 module MapReduce where
 
 import Control.Parallel (pseq)
-import Control.Parallel.Strategies
+import Control.Parallel.Strategies ( parList, using, Strategy )
 
 -- map reduce module
 
